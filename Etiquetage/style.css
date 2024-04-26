@@ -1,0 +1,77 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box; /* Inclure les marges et les bordures dans le calcul de la taille */
+}
+
+.container {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10%; /* Utilisation d'une marge relative */
+}
+
+.expl{
+    margin-top: 10px;
+    background-color: #f22222;
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+#commentaire {
+    font-size: 20px;
+}
+
+.btn {
+    width: 100px; /* Utilisation d'une largeur relative */
+    max-width: 150px; /* Limitation de la largeur maximale */
+    height: auto; /* Hauteur automatique pour s'adapter au contenu */
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px; /* Espacement entre les boutons */   
+}
+
+#bon {
+    background-color: #FFA500;
+}
+
+#colere {
+    background-color: #8B0000;
+}
+
+#anxieux{
+    background-color: #ADD8E6;
+}
+
+#triste{
+    background-color: #2F4F4F;
+}
+
+a {
+    display: inline-block; /* Permet de spécifier la largeur et la hauteur */
+    margin-top: 40px;
+    padding: 20px;
+    color: #ccc;
+    text-decoration: none;
+    background-color: rgb(92, 92, 228);
+    border-radius: 20px;
+    margin-left: 30%; /* Réduction de la marge latérale pour les petits écrans */
+    margin-right: 30%;
+
+}
+
+/* Media queries pour ajuster le style en fonction de la taille de l'écran */
+@media screen and (max-width: 768px) {
+    .container {
+        margin-top: 20%; /* Augmentation de la marge pour les petits écrans */
+    }
+    .btn {
+        width: 40%; /* Ajustement de la largeur des boutons pour les petits écrans */
+        max-width: 120px;
+    }
+    a {
+        margin-left: 10%; /* Réduction de la marge latérale pour les petits écrans */
+        margin-right: 10%;
+    }
+}
