@@ -35,7 +35,7 @@
                     événements négatifs tels que la perte, le deuil, la solitude ou l'échec</p>
                     </div>
 
-            <a id="lienTelechargement" href="#" download="votes.csv" style="display: none;">Télécharger le fichier CSV</a> <!-- Lien pour télécharger le fichier -->
+            <a id="lienTelechargement" href="votes.csv" download="votes.csv" style="display: none;">Télécharger le fichier CSV</a> <!-- Lien pour télécharger le fichier -->
         </div>
 </div>
     <script src="function.js"></script>
